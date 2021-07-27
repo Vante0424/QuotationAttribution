@@ -10,7 +10,7 @@ from nltk.tokenize import word_tokenize
 
 # 一. Linguistic & Semantic Analysis
 # 1. Sentence splitting
-file_path = 'train.txt'
+file_path = 'train_text(ENG).txt'
 train_text = []
 
 with open(file_path, 'r', encoding='utf-8') as f:
