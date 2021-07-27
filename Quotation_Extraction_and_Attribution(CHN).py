@@ -4,7 +4,7 @@ import jieba.posseg as pseg  # 词性标注
 # 一. Linguistic & Semantic Analysis
 
 # 1. Sentence splitting
-file_path = 'train_text1.txt'
+file_path = 'train_text(CHN).txt'
 train_text = []
 
 with open(file_path, 'r', encoding='utf-8') as f:
